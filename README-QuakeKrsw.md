@@ -18,7 +18,7 @@
 |time|◯|揺らす時間（ミリ秒）<br>※端末性能によって大幅にズレる可能性大|
 |intervel|✕|何ミリ秒単位で揺らすか<br>デフォルト32ms、下限16msぐらい（ブラウザ依存）|
 |accel|✕|揺れ方の加速度<br>デフォルト指定なし（hmaxの揺れ幅のまま揺れ続ける）<br>2以上で段々強く、-2以下で段々弱くなる|
-|infinity|✕|無限再生<br>デフォルトはfalse<br>trueでQuakeKrFinishするまで再生（timeは無視される）|
+|infinity|✕|無限再生<br>デフォルトはfalse<br>trueでQuakeKrswFinishするまで再生（timeは無視される）|
 |wait|✕|true/false<br>timeで指定した時間が終了するまで操作を受け付けなくする<br>デフォルトfalse<br>infinityが有効の場合は無視される|
 ---
 * QuakeKrswFinish  
